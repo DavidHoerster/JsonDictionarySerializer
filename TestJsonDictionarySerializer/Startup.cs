@@ -24,7 +24,6 @@ namespace TestJsonDictionarySerializer
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
             //end route
 
             //Mongo config
